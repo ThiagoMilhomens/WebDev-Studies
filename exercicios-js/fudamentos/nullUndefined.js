@@ -1,9 +1,9 @@
- /*let valor // nao inicializada
+let valor // nao inicializada
 
 console.log(valor)
 // undefined
 
- //console.log(valor2) // valor2 sequer foi declarado
+console.log(valor2) // valor2 sequer foi declarado
 // Erro - valor2 is not defined 
 
 valor = null // ausencia de valor nao aponta para nenhum objeto na memória
@@ -11,7 +11,7 @@ valor = null // ausencia de valor nao aponta para nenhum objeto na memória
 console.log(valor)
 // null
 
-//----------------------------------//------------------------------------// */
+//----------------------------------//------------------------------------//
 
 const produto = {}
 console.log(produto.preco)

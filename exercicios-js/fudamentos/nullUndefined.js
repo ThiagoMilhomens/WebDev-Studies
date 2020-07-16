@@ -8,6 +8,8 @@ console.log(valor2) // valor2 sequer foi declarado
 
 valor = null // ausencia de valor nao aponta para nenhum objeto na memória
 
+console.log(valor.toString())
+//TypeError: Cannot read property 'toString' of null
 console.log(valor)
 // null
 

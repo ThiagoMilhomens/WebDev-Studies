@@ -15,7 +15,7 @@ console.log(aleatório({min: 500}))
 console.log( aleatório ( {} ) )
 // Um número aleatório entre 0 e 1000
 
-console.log( aleatório ( ) ) // Vai dar erro pq está tentando desestruturar algo ñ definido 
+console.log( aleatório () ) // Vai dar erro pq está tentando desestruturar algo ñ definido 
 //TypeError: Cannot read property 'min' of undefined
 
 //----------------------------------------//------------------------------------------------//
@@ -36,5 +36,5 @@ console.log(aleatório([500]))
 console.log( aleatório ( [] ) )
 // Um número aleatório entre 0 e 1000
 
-console.log( aleatório ( ) ) // Vai dar erro pq está tentando desestruturar algo ñ definido 
+console.log( aleatório () ) // Vai dar erro pq está tentando desestruturar algo ñ definido 
 //TypeError: undefined is not iterable

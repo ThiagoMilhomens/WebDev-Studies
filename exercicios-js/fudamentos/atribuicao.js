@@ -3,7 +3,7 @@
 const a = 7 // eu não estou dizendo que a é igual 7 eu estou atribuindo o valor 7 à constante a(??? kkk)...  
 let b = 3
 
-//atalhos na atribuição para operações aritméticas
+// ATALHOS na atribuição para operações aritméticas
 
 b += a // corresponde  b = b + a
 console.log(b)

@@ -5,7 +5,7 @@ const imprimirResultado = function (nota) {
         case 10:
         case 9:
             console.log('Quadro de Honra') // pode ser usado mais de um console.log
-            break                          // break é mandatório para fechar esta regra e passar para a outra 
+            break                          // break é mandatório para fechar esta regra e passar para a outra(desvio de fluxo) 
         case 8: case 7:                          
             console.log('Aprovado')
             break  

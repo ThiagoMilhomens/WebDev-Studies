@@ -1,3 +1,5 @@
+//----------Cidadão de Primeira Linha--------------//
+
 // Função dem JS é Frist-Class Object (Citizens)
 // Higher-order function
 

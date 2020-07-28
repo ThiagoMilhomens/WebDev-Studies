@@ -1,4 +1,4 @@
-
+//----------------------This e a função Bind 2---------------------//
 
 function Pessoa() {
     this.idade = 0

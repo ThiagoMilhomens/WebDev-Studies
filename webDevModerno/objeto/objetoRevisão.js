@@ -2,7 +2,7 @@
 //Objeto é uma coleção dinâmica (pode adicionar e remover) de pares chave/valor 
 
 const carro = new Object //O operador'new' istancia um objeto através da função 'Object'
-// Forma simples de criar objeto: const carro  = {}
+// Forma simples de criar objeto é por notação literal: const carro  = {}
 
 //adicionando atributos
 carro.nome = 'Palio'    //usando notação ponto
@@ -78,3 +78,7 @@ console.log(moto)
   proprietario: { nome: 'Raul', sobrenome: 'Silva' }
 }
 */
+console.log(carro.condutores) //lá em cima eu deletei 'condutores´
+//undfined
+console.log(carro.condutores.length) //se não tivesse deletado condutores retornaria '2'
+//TypeError: Cannot read property 'length' of undefined

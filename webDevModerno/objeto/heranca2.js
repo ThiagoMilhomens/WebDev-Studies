@@ -1,4 +1,4 @@
-/*/---------------Herança #02---------------//
+//---------------Herança #02---------------//
 //Cadeia de protótipos (prototype chain)
 
 const avo = {attr1: 'A'}
@@ -11,7 +11,7 @@ console.log(filho.attr0, filho.attr1, filho.attr2, filho.attr3)
 Object.prototype.attr0 = 0 //prática não é recomendável!
 console.log(filho.attr0, filho.attr1, filho.attr2, filho.attr3)
 // 0 A B C
-*/
+
 
 const carro = {
     velAtual: 0,
@@ -46,13 +46,13 @@ Object.setPrototypeOf(volvo, carro)
 
 console.log(ferrari)
 // { modelo: 'F40', velMax: 324 }
-console.log(volvo)
+console.log(volvo)//repara q não acessa a funçção 'status' 
 // { modelo: 'V40', status: [Function: status] }
+
 
 volvo.aceleraMais(100)
 console.log(volvo.status())
 // V40: 100km/h de 200km/h
-
 ferrari.aceleraMais(300)
 console.log(ferrari.status())
 //300km/h de 324km/h

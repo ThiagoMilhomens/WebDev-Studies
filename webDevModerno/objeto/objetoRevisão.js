@@ -43,12 +43,6 @@ const moto = {
     }
 }
 
-/*
-calcularValorSeguro: function() {
-        // ....
-    }
-*/
-
 moto.proprietario.endereco.numero = 1000
 moto['proprietario'] ['endereco']['logradouro'] = 'Av Barão de Mauá'
 console.log(moto)

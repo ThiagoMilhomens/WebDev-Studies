@@ -46,7 +46,7 @@ Object.setPrototypeOf(volvo, carro)
 
 console.log(ferrari)
 // { modelo: 'F40', velMax: 324 }
-console.log(volvo)//repara q não acessa a funçção 'status' 
+console.log(volvo)//repara q não acessa a funçção 'status'  
 // { modelo: 'V40', status: [Function: status] }
 
 

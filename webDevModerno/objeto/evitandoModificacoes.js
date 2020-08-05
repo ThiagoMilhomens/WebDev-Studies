@@ -22,9 +22,9 @@ Object.seal(pessoa)
 console.log('Selado:', Object.isSealed(pessoa))
 // Selado: true
 
-pessoa.sobrenome = 'Silva' // não
-delete pessoa.nome         // não
-pessoa.idade = 29          //ok
+pessoa.sobrenome = 'Silva'  // não
+delete pessoa.nome          // não
+pessoa.idade = 29           //ok
 console.log(pessoa)
 // { nome: 'Juliana', idade: 29 }
 

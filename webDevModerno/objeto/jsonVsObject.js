@@ -1,7 +1,7 @@
 //---------------JSON vs Objeto---------------//
 
 //JSON - JavaScript Object Notation
-//Permite a interoperabilidade de dados(textual genérico) entre diferentes sistemas e linguagens
+//Permite a interoperabilidade de dados(textual) entre diferentes sistemas e linguagens
 
 const obj = { a: 1, b: 2, c: 3, soma() { return a + b + c } }
 

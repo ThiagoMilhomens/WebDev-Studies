@@ -22,7 +22,7 @@ console.log(JSON.parse ('{ 'a':1, 'b': 2, 'c':3 }') )
 console.log(JSON.parse ('{ "a":1, "b": 2, "c":3 }') ) // atributos e string sempre entre "aspas duplas" 
 // { a: 1, b: 2, c: 3 }
 
-//Supurta objeto, array, bollean
+//Suporta objeto, array, bollean
 console.log(JSON.parse ('{ "a": 1.7, "b": "Qualquer", "c": true, "d": {"quantidade": 12}, "e": ["oi", 1] }') )
 /*
 {

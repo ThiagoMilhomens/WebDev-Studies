@@ -1,6 +1,6 @@
 //-------------Map #01---------------//
 //Função 'map' mapeia um array e retorna um OUTRO array com os elemntos transformados
-//Tem 3 parâmetros (value, index e array)
+//Tem 3 parâmetros (value, index e array), normalmente se usa somente os dois primeiros.
 
 const nums = [1, 2, 3, 4 , 5] 
 

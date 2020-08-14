@@ -10,7 +10,8 @@ const alunos = [
 
 // desafio 1: Todos os alunos são bolsista?
 
-const todosBolsista = (resultado,bolsista) => resultado && bolsista 
+const todosBolsista = (resultado,bolsista) => resultado && bolsista
+// && é op lógico que precisa true e true para confirmar   
 console.log(alunos.map(a =>a.bolsista).reduce(todosBolsista))
 // false
 

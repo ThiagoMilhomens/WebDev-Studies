@@ -32,7 +32,7 @@ const quinzeDezenas = resultado.sort((a,b) => a-b)
 
 // colocando em ordem numérica
 //console.log(seisDezenas)
-console.log(seteDezenas)
+//console.log(seteDezenas)
 //console.log(oitoDezenas)
 //console.log(noveDezenas)
 //console.log(dezDezenas)
@@ -40,6 +40,6 @@ console.log(seteDezenas)
 //console.log(dozeDezenas)
 //console.log(trezeDezenas)
 //console.log(quatorzeDezenas)
-//console.log(quinzeDezenas)
+console.log(quinzeDezenas)
 
 

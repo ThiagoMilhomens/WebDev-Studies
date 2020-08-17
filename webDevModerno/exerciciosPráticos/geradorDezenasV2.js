@@ -31,6 +31,7 @@ const quinzeDezenas = semRepeticao.slice(0, 15).sort((a,b) => a-b)
 
 
 console.log(seisDezenas)
+console.log(seisDezenas)
 //console.log(seteDezenas)
 //console.log(oitoDezenas)
 //console.log(noveDezenas)

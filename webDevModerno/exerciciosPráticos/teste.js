@@ -1,5 +1,6 @@
 //let dezena = getInteiroAleatorio(1, 61)
 
+/*
 function getInteiroAleatorio(min, max) {
     const valor = Math.random() * (max - min) + min
     return Math.floor(valor)
@@ -11,7 +12,8 @@ while (opcao != 60) {
     console.log(`Opção escolhida foi ${opcao}.`)    
 }
 
-console.log('Até a próxima!') 
+//console.log('Até a próxima!') 
+*/
 
 /*
 function teste(num) {
@@ -24,3 +26,9 @@ function teste(num) {
 //teste(6)
 teste(8)
 */
+
+quantDezenas = 6
+
+for (let i = 1; i <= quantDezenas; i++) {
+    return this.
+}

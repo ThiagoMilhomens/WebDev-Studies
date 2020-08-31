@@ -25,10 +25,12 @@ function teste(num) {
 
 //teste(6)
 teste(8)
-*/
+
 
 quantDezenas = 6
 
 for (let i = 1; i <= quantDezenas; i++) {
     return this.
 }
+*/
+console.log('Meu nome é "NOME.', 'Estou apendendo JS às', 10, 'da manhã.')
